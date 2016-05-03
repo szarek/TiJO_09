@@ -1,24 +1,28 @@
-(function ()
-{
+(function () {
     'use strict';
-
-    //example exercise
 
     window.app = {
 
-        getDescendingNumbers: function (start, stop)
-        {
-            if (typeof start !== 'number' || typeof stop !== 'number' || start <= stop) {
+        calculateArea: function (a, b, c, messageSuccess, messageError) {
+            var area;
+            if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number' ||
+                typeof messageSuccess !== 'string' || typeof messageSuccess !== 'string') {
                 return false;
             }
-            var descendingNumbers = start;
-            for (var i = start - 1; i >= stop; i--) {
-                descendingNumbers = descendingNumbers + ' ' + i;
+            else {
+                area = a > b ? a - b * c : b - a * c;
+                if (area > 0) {
+                    return {area: area, message: messageSuccess};
+                }
+                else if (area < 0) {
+                    return {area: area, message: messageError};
+                }
+                else {
+                    return {area: 0, message: 'Big null'};
+                }
             }
-            return descendingNumbers;
         }
     };
-
 })();
 
 
