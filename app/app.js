@@ -6,7 +6,7 @@
         calculateArea: function (a, b, c, messageSuccess, messageError) {
             var area;
             if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number' ||
-                typeof messageSuccess !== 'string' || typeof messageSuccess !== 'string') {
+                typeof messageSuccess !== 'string' || typeof messageError !== 'string') {
                 return false;
             }
             else {
