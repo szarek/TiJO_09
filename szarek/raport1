@@ -1,0 +1,31 @@
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+/app/app.js tests fail without mutations
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:88 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:63 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:38 Replaced  ||  with && -> SURVIVED
+/app/app.js:10:17 Removed return false; -> SURVIVED
+/app/app.js:10:24 Replaced false with true -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:13:49 Replaced  *  with / -> SURVIVED
+/app/app.js:14:25 Replaced  >  with >= -> SURVIVED
+/app/app.js:17:30 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:30 Replaced  <  with >= -> SURVIVED
+/app/app.js:17:33 Replaced 0 with 1 -> SURVIVED
+/app/app.js:18:21 Removed return {area: area, message: messageError}; -> SURVIVED
+/app/app.js:18:29 Removed area: area,  -> SURVIVED
+/app/app.js:18:41 Removed message: messageError -> SURVIVED
+/app/app.js:21:21 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:29 Removed area: 0,  -> SURVIVED
+/app/app.js:21:38 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:35 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:47 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+30 of 50 unignored mutations are tested (60%). 3 mutations were ignored.
